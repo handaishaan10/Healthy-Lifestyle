@@ -1,0 +1,242 @@
+<html>
+    <head><title>Healthy Lifestyle</title></head>
+    <body id="body2">
+        <ul class="menu">
+            <li  class="links"><a id="l1" href="#diet">Benefits</a></li>
+            <li class="links"><a id="l2" href="#main">Maintaining</a></li>
+            <li class="links"><a id="l3" href="#home">Home</a></li>
+            
+            </ul>
+            <br>
+            <br>
+            <br> <br>
+          
+            <section id="home">
+                <b>
+                <h1 id="head">What is a healthy lifestyle?</h1>
+                <center>
+                    </b>
+                    <img id="what" src="healt.jpg">
+                </center>
+                <b>
+                    <p id="h1"class="intro">We all want to live healthy, happy lives. Some of us are unfortunate others might be unaware of their harmful habits or find healthier options difficult or impractical.
+                    </p>
+                </b>
+                    <br>
+                    <p id="h2" class="intro">
+                        Good nutrition, daily exercise and adequate sleep are the foundations of healthy living. A healthy lifestyle keeps you fit, energetic and at reduced risk for disease. According to WHO, Healthy living is a way of living that helps you enjoy more aspects of your life. It is a way of living that lowers the risk of being seriously ill or dying early. Health is not just about avoiding a disease or illness. It is about physical, mental and social well-being too.
+                    </p>
+                
+            </section>
+            <br>
+            <br>
+            <br>
+            <section id="main" >
+                <h1 id="g1">Maintaining a healthy lifestyle</h1>
+                <b>
+                    
+                <p  id="main2" >To maintain a healthy life you must have a balanced diet containing balanced amount of protein, carbohydrates, fats, vitamins, and minerals.</p>
+            </b>
+        
+            <br>
+            <img src="img2.jpg";
+                    <br>
+                <p  id="h3">Keeping track of your body weight on a daily or weekly basis will help you see what you’re gaining and/or what
+                    you’re losing. A positive attitude can boost your energy, heighten your inner
+
+                    strength, inspire others, and garner the fortitude to meet difficult
+                    
+                    challenges.Advice on aerobic, flexibility, strength training and
+                    
+                    balance exercises to help manage and reduce peripheral
+                    
+                    neuropathy symptoms. Good nutrition is often the first line of
+                    
+                    defense to avoid many diseases . Find advice for
+                    
+                    keeping a healthy diet and  shopping .
+                    </p>
+            </section>
+            <br>
+            <br>
+            <br>
+            <section id="diet">
+                <h1 id="g2">Benefits of a healthy life</h1>
+                <img src="img4.jpg">
+                <p id="h4">A recent study tracked the health habits and outcomes of over 120,000 participants for three decades.According to this study, women with healthy habits lived an average of fourteen years longer than their counterparts with unhealthy lifestyles. In contrast, men with healthy lifestyles lived approximately twelve additional years. </p>
+            </section>
+            <button id="dark"  type="button"onclick="light()">Light Mode  </button>
+            <button id="light"  type="button"onclick="dark()">Dark Mode  </button>
+            <br>
+            <br>
+            <br><br>
+            <br>
+            <br>
+            <section id="foot">
+                <br>
+                <br>
+                <h1 id="h5">Website Designers</h1>
+                <br>
+                <a id="a2"class="a" target="_blank" href="https://github.com/Ekansh-Coder5">EKANSH GUPTA</a>
+                <BR>
+                    <BR>
+                <a id="a1"class="a" target="_blank" href="https://github.com/handaishaan">ISHAAN HANDA</a>
+            </section>
+          
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<style>
+#what{
+    width: 80%;
+    height: 60%;
+        }
+.intro {
+    font-size:20px;
+    font-family:sans-serif;
+}
+#head {
+    font-size: 40px;
+    font-family:sans-serif;
+    
+}
+.menu {
+    z-index: 10;
+    top: 10px;
+    right: 130px;
+    list-style: none;
+    position:fixed;
+    
+    font-family: fantasy;
+}
+.links {
+    float: right;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:9px;
+    padding-right:9px;
+    font-size:25px;
+}
+.links :active{
+    color: #fff;
+    text-decoration: none;
+}
+.links :link{
+    color: #fff;
+    text-decoration: none;
+}
+.links :visited{
+    color: #fff;
+    text-decoration: none;
+}
+.links:hover{
+    background-color: rgb(5, 127, 250);
+    font-size: 30px;
+}
+h1 {
+    font-size: 40px;
+    font-family:sans-serif;
+    color:#fff;
+}
+p {
+    font-family:sans-serif;
+    font-size:20px;
+    color:#fff;
+}
+#main2 {
+    margin-right: 50%;
+}
+#img3 {
+    height:500px;
+}
+body {
+    background-color:black
+}
+#dark {
+    font-size: 30px;
+    color:black;
+    background-color:white;
+    border-radius:5px;
+
+}
+#light {
+    font-size: 30px;
+    color:black;
+    background-color:white;
+    border-radius:5px;
+    float:right;
+}
+.a {
+    color:black;
+    font-size:30px;
+    text-decoration:none;
+    font-family: sans-serif;
+    text-decoration: bold;
+}
+
+#foot {
+    background-color:white;
+}
+#h5 {
+    color:black;
+}
+
+</style>
+<script>
+
+    function light() {
+        document.getElementById('body2').style.backgroundColor ="white";
+        document.getElementById('h1').style.color ="black";
+        document.getElementById('h2').style.color ="black";
+        document.getElementById('h3').style.color ="black";
+        document.getElementById('h4').style.color ="black";
+        document.getElementById('main2').style.color ="black";
+        document.getElementById('g1').style.color ="black";
+        document.getElementById('g2').style.color ="black";
+        document.getElementById('head').style.color ="black";
+        document.getElementById('l1').style.color ="black";
+        document.getElementById('l2').style.color ="black";
+        document.getElementById('l3').style.color ="black";
+        document.getElementById('dark').style.color ="white";
+        document.getElementById('dark').style.backgroundColor ="black"; 
+        document.getElementById('light').style.color ="white";
+        document.getElementById('light').style.backgroundColor ="black"; 
+        document.getElementById('foot').style.backgroundColor ="black"; 
+        document.getElementById('h5').style.color ="white";
+        document.getElementById('a1').style.color ="white"; 
+        document.getElementById('a2').style.color ="white"; 
+
+    }
+    function dark() {
+        document.getElementById('body2').style.backgroundColor ="black";
+        document.getElementById('h1').style.color ="white";
+        document.getElementById('h2').style.color ="white";
+        document.getElementById('h3').style.color ="white";
+        document.getElementById('h4').style.color ="white";
+        document.getElementById('main2').style.color ="white";
+        document.getElementById('g1').style.color ="white";
+        document.getElementById('g2').style.color ="white";
+        document.getElementById('head').style.color ="white";
+        document.getElementById('l1').style.color ="white";
+        document.getElementById('l2').style.color ="white";
+        document.getElementById('l3').style.color ="white";
+        document.getElementById('light').style.color ="black";
+        document.getElementById('light').style.backgroundColor ="white";
+        document.getElementById('dark').style.color ="black";
+        document.getElementById('dark').style.backgroundColor ="white";
+        document.getElementById('foot').style.backgroundColor ="white"; 
+        document.getElementById('h5').style.color ="black";
+        document.getElementById('a1').style.color ="black"; 
+        document.getElementById('a2').style.color ="black"; 
+    }
+</script>
